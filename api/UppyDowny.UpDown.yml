@@ -1,0 +1,466 @@
+### YamlMime:ManagedReference
+items:
+- uid: UppyDowny.UpDown
+  commentId: T:UppyDowny.UpDown
+  id: UpDown
+  parent: UppyDowny
+  children:
+  - UppyDowny.UpDown.Down(System.Int32,System.Int32)
+  - UppyDowny.UpDown.Interpret(System.String)
+  - UppyDowny.UpDown.Print(System.Int32)
+  - UppyDowny.UpDown.Up(System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: UpDown
+  nameWithType: UpDown
+  fullName: UppyDowny.UpDown
+  type: Class
+  source:
+    id: UpDown
+    path: C:\Users\User\source\repos\UppyDowny\UppyDowny\UpDown.cs
+    startLine: 16
+  assemblies:
+  - UppyDowny
+  namespace: UppyDowny
+  summary: The official implementation of UpDown, in compliance with https://esolangs.org/wiki/UpDown.
+  remarks: >-
+    NONE OF THE FUNCTIONS ARE ACTUALLY IMPLEMENTED YET!!!
+
+    This class contains the functions that implement their equivalent commands in UpDown,
+
+    and the Interpret function to bring it all together.
+  example: []
+  syntax:
+    content: public static class UpDown
+    content.vb: Public Module UpDown
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: UppyDowny.UpDown.Interpret(System.String)
+  commentId: M:UppyDowny.UpDown.Interpret(System.String)
+  id: Interpret(System.String)
+  parent: UppyDowny.UpDown
+  langs:
+  - csharp
+  - vb
+  name: Interpret(string)
+  nameWithType: UpDown.Interpret(string)
+  fullName: UppyDowny.UpDown.Interpret(string)
+  type: Method
+  source:
+    id: Interpret
+    path: C:\Users\User\source\repos\UppyDowny\UppyDowny\UpDown.cs
+    startLine: 22
+  assemblies:
+  - UppyDowny
+  namespace: UppyDowny
+  summary: Interprets the UpDown code given.
+  example: []
+  syntax:
+    content: public static void Interpret(string code)
+    parameters:
+    - id: code
+      type: System.String
+      description: The UpDown code to be interpreted.
+    content.vb: Public Shared Sub Interpret(code As String)
+  overload: UppyDowny.UpDown.Interpret*
+  nameWithType.vb: UpDown.Interpret(String)
+  fullName.vb: UppyDowny.UpDown.Interpret(String)
+  name.vb: Interpret(String)
+- uid: UppyDowny.UpDown.Up(System.Int32,System.Int32)
+  commentId: M:UppyDowny.UpDown.Up(System.Int32,System.Int32)
+  id: Up(System.Int32,System.Int32)
+  parent: UppyDowny.UpDown
+  langs:
+  - csharp
+  - vb
+  name: Up(int, int)
+  nameWithType: UpDown.Up(int, int)
+  fullName: UppyDowny.UpDown.Up(int, int)
+  type: Method
+  source:
+    id: Up
+    path: C:\Users\User\source\repos\UppyDowny\UppyDowny\UpDown.cs
+    startLine: 31
+  assemblies:
+  - UppyDowny
+  namespace: UppyDowny
+  summary: Implements the "up" command.
+  example: []
+  syntax:
+    content: public static void Up(int variable, int incrementAmount)
+    parameters:
+    - id: variable
+      type: System.Int32
+      description: The variable to increment.
+    - id: incrementAmount
+      type: System.Int32
+      description: The amount to increment the variable by.
+    content.vb: Public Shared Sub Up(variable As Integer, incrementAmount As Integer)
+  overload: UppyDowny.UpDown.Up*
+  nameWithType.vb: UpDown.Up(Integer, Integer)
+  fullName.vb: UppyDowny.UpDown.Up(Integer, Integer)
+  name.vb: Up(Integer, Integer)
+- uid: UppyDowny.UpDown.Down(System.Int32,System.Int32)
+  commentId: M:UppyDowny.UpDown.Down(System.Int32,System.Int32)
+  id: Down(System.Int32,System.Int32)
+  parent: UppyDowny.UpDown
+  langs:
+  - csharp
+  - vb
+  name: Down(int, int)
+  nameWithType: UpDown.Down(int, int)
+  fullName: UppyDowny.UpDown.Down(int, int)
+  type: Method
+  source:
+    id: Down
+    path: C:\Users\User\source\repos\UppyDowny\UppyDowny\UpDown.cs
+    startLine: 40
+  assemblies:
+  - UppyDowny
+  namespace: UppyDowny
+  summary: Implements the "down" command.
+  example: []
+  syntax:
+    content: public static void Down(int variable, int decrementAmount)
+    parameters:
+    - id: variable
+      type: System.Int32
+      description: The variable to decrement.
+    - id: decrementAmount
+      type: System.Int32
+      description: The amount to decrement the variable by.
+    content.vb: Public Shared Sub Down(variable As Integer, decrementAmount As Integer)
+  overload: UppyDowny.UpDown.Down*
+  nameWithType.vb: UpDown.Down(Integer, Integer)
+  fullName.vb: UppyDowny.UpDown.Down(Integer, Integer)
+  name.vb: Down(Integer, Integer)
+- uid: UppyDowny.UpDown.Print(System.Int32)
+  commentId: M:UppyDowny.UpDown.Print(System.Int32)
+  id: Print(System.Int32)
+  parent: UppyDowny.UpDown
+  langs:
+  - csharp
+  - vb
+  name: Print(int)
+  nameWithType: UpDown.Print(int)
+  fullName: UppyDowny.UpDown.Print(int)
+  type: Method
+  source:
+    id: Print
+    path: C:\Users\User\source\repos\UppyDowny\UppyDowny\UpDown.cs
+    startLine: 49
+  assemblies:
+  - UppyDowny
+  namespace: UppyDowny
+  summary: Implements the "print" command.
+  example: []
+  syntax:
+    content: public static void Print(int variable)
+    parameters:
+    - id: variable
+      type: System.Int32
+      description: The variable to print as an ASCII character.
+    content.vb: Public Shared Sub Print(variable As Integer)
+  overload: UppyDowny.UpDown.Print*
+  nameWithType.vb: UpDown.Print(Integer)
+  fullName.vb: UppyDowny.UpDown.Print(Integer)
+  name.vb: Print(Integer)
+references:
+- uid: UppyDowny
+  commentId: N:UppyDowny
+  href: UppyDowny.html
+  name: UppyDowny
+  nameWithType: UppyDowny
+  fullName: UppyDowny
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UppyDowny.UpDown.Interpret*
+  commentId: Overload:UppyDowny.UpDown.Interpret
+  href: UppyDowny.UpDown.html#UppyDowny_UpDown_Interpret_System_String_
+  name: Interpret
+  nameWithType: UpDown.Interpret
+  fullName: UppyDowny.UpDown.Interpret
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: UppyDowny.UpDown.Up*
+  commentId: Overload:UppyDowny.UpDown.Up
+  href: UppyDowny.UpDown.html#UppyDowny_UpDown_Up_System_Int32_System_Int32_
+  name: Up
+  nameWithType: UpDown.Up
+  fullName: UppyDowny.UpDown.Up
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: UppyDowny.UpDown.Down*
+  commentId: Overload:UppyDowny.UpDown.Down
+  href: UppyDowny.UpDown.html#UppyDowny_UpDown_Down_System_Int32_System_Int32_
+  name: Down
+  nameWithType: UpDown.Down
+  fullName: UppyDowny.UpDown.Down
+- uid: UppyDowny.UpDown.Print*
+  commentId: Overload:UppyDowny.UpDown.Print
+  href: UppyDowny.UpDown.html#UppyDowny_UpDown_Print_System_Int32_
+  name: Print
+  nameWithType: UpDown.Print
+  fullName: UppyDowny.UpDown.Print

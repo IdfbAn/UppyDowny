@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: UppyDowny
+  commentId: N:UppyDowny
+  id: UppyDowny
+  children:
+  - UppyDowny.App
+  - UppyDowny.MainWindow
+  - UppyDowny.UpDown
+  langs:
+  - csharp
+  - vb
+  name: UppyDowny
+  nameWithType: UppyDowny
+  fullName: UppyDowny
+  type: Namespace
+  assemblies:
+  - UppyDowny
+references:
+- uid: UppyDowny.App
+  commentId: T:UppyDowny.App
+  href: UppyDowny.App.html
+  name: App
+  nameWithType: App
+  fullName: UppyDowny.App
+- uid: UppyDowny.MainWindow
+  commentId: T:UppyDowny.MainWindow
+  href: UppyDowny.MainWindow.html
+  name: MainWindow
+  nameWithType: MainWindow
+  fullName: UppyDowny.MainWindow
+- uid: UppyDowny.UpDown
+  commentId: T:UppyDowny.UpDown
+  href: UppyDowny.UpDown.html
+  name: UpDown
+  nameWithType: UpDown
+  fullName: UppyDowny.UpDown
